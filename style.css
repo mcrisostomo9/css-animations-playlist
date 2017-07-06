@@ -49,13 +49,14 @@ html, body{
   animation-name: drive;
   animation-duration: 3s;
   animation-fill-mode: both;
-  animation-delay: .5s;
+  /*animation-delay: .5s;*/
+  animation-iteration-count: infinite;
 }
 
 
 /*// KEYFRAMES //*/
 
 @keyframes drive {
-  from{ transform: translateX(0px)}
+  from{ transform: translateX(-200px)}
   to{ transform: translateX(1000px)}
 }
