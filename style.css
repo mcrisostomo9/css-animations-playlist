@@ -51,6 +51,7 @@ html, body{
   animation-fill-mode: both;
   /*animation-delay: .5s;*/
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .luigi{
@@ -69,5 +70,5 @@ html, body{
 
 @keyframes drive {
   from{ transform: translateX(-200px)}
-  to{ transform: translateX(1000px)}
+  to{ transform: translateX(1500px)}
 }
