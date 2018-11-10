@@ -56,7 +56,7 @@ html, body{
 
 .luigi{
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 0px;
   animation-name: drive;
   animation-duration: 5s;
